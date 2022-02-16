@@ -1,0 +1,26 @@
+extends: default
+
+font:
+  catalog:
+    merge: true
+    LCTPicon:
+      normal: LCTPicon/LCTPicon-Regular.ttf
+      italic: LCTPicon/LCTPicon-Light.ttf
+      bold: LCTPicon/LCTPicon-Bold.ttf
+      bold_italic: LCTPicon/LCTPicon-Black.ttf
+    LCTPicon-Extended:
+      normal: LCTPicon/LCTPicon-ExtendedRegular.ttf
+      italic: LCTPicon/LCTPicon-ExtendedLight.ttf
+      bold: LCTPicon/LCTPicon-ExtendedBold.ttf
+      bold_italic: LCTPicon/LCTPicon-ExtendedBlack.ttf
+
+page:
+  size: A5
+  margin: [8mm, 8mm, 8mm, 8mm]
+
+base:
+  font-family: LCTPicon
+
+heading:
+  font-family: LCTPicon-Extended
+  font-color: 00AA6E

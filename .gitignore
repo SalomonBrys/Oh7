@@ -1,0 +1,17 @@
+# INTELLIJ
+.idea/
+*.ipr
+*.iml
+
+# SYSTEM FILES
+*~
+.DS_STORE
+
+# GRADLE
+.gradle
+build/
+.gradletasknamecache
+
+# Bundle
+.bundle
+Gemfile.lock
