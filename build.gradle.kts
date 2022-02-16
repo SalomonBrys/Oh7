@@ -53,7 +53,7 @@ pdfThemes {
 }
 
 tasks.create<Sync>("fonts") {
-    from("rules/fonts")
+    from("fonts")
     into("docs/fonts")
 }
 
