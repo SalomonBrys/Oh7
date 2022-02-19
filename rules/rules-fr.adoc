@@ -174,13 +174,12 @@ Le panier est donc de stem:[1 + 2 = 3] points.
 ** David remporte stem:[(3 * 2) + 2 + 0 = 8] points.
 ====
 
-
-*Le·la premier·e joueur·euse à atteindre 35 points remporte la partie.* +
-Si plusieurs joueur·euse·s atteignent ou dépassent 35 points lors de la même manche, le·la gagnant·e est *celui ou celle qui a réalisé le plus de paris* (ayant gagné le plus de manches). +
+Le·la premier·e joueur·euse *à atteindre 35 points à la suite d'un pari réussi* remporte la partie. +
+Si plusieurs joueur·euse·s atteignent ou dépassent 35 points à la suite d'un pari réussi lors de la même manche, le·la gagnant·e est *celui ou celle qui a réalisé le plus de paris* (ayant gagné le plus de manches). +
 En cas d'égalité, c'est celui ou celle ayant *le plus de points*. +
 Si l'égalité persiste, les égalitaires se partagent la victoire.
 
-Si aucun·e joueur·euse n'a remporté 35 points, recommencez une manche à la phase de <<distribution>> en mélangeant toutes les cartes jeu (y compris l'écart).
+Si aucun·e joueur·euse n'a remporté 35 points à la suite d'un pari réussi, recommencez une manche à la phase de <<distribution>> en mélangeant toutes les cartes jeu (y compris l'écart).
 
 [NOTE]
 ====
@@ -233,3 +232,40 @@ La carte ‽ est plus forte que toutes les cartes non-atout, mais plus faible qu
 Si il·elle joue lui·elle aussi une carte spéciale, alors la couleur est définie par le·la joueur·euse suivant·e, et ainsi de suite. +
 Si un pli est constitué uniquement de cartes spéciales, alors la carte la plus forte est la carte ‽, suivi des cartes ★, suivies des cartes Ø.
 ====
+
+
+== 2 Joueurs
+
+Créez le paquet de cartes jeu comme si vous jouiez avec 3 joueur·euse·s.
+
+Les deux joueur·euse·s se font face et un troisième joueur (le Pantin) est simulé.
+
+Distribuez 7 cartes à chacun des deux joueur·euse·s.
+Placez les cartes restantes en une pile entre eux, c'est la *pioche du Pantin*.
+
+Pendant la phase des paris, le Pantin parie toujours 2.
+Si la sommes des paris des joueur·euse·s plus 2 est égal à 7, il·elle·s doivent donc re-parier.
+Le Pantin n'est jamais premier meneur (son pari est ignoré pour cela).
+
+Après la phase des paris, et avant de démarrer le premier pli, révélez 2 cartes de la pioche du Pantin et placez-les face visible à côté.
+
+Le Pantin joue toujours en dernier (après les deux joueurs), à moins d'avoir gagné le pli précédent, auquel cas il ouvre le pli, suivi du ou de la premier·e meneur·euse.
+
+Le Pantin essaie de gagner exactement 2 plis.
+
+Lorsque le Pantin joue en dernier, révélez une troisième carte de sa pioche et jouez l'une de ces trois cartes en son nom:
+
+* *S'il veut gagner le pli* (parce qu'il a gagné moins de 2 plis) :
+** *S'il peut gagner le pli* :
+*** *Si c'est son premier pli* : il joue la carte la plus faible qui gagne le pli.
+*** *Si c'est son second pli* : il joue la carte la plus forte qui gagne le pli.
+** *S'il ne peut pas gagner le pli* : il joue la carte la plus faible possible.
+* *S'il veut perdre le pli* (parce qu'il a déjà gagné de 2 plis) :
+** *S'il peut perdre le pli*: il joue la carte la plus forte qui perd le pli.
+** *S'il ne peut pas perdre le pli*: il joue la carte la plus forte possible.
+
+En cas d'égalité entre plusieurs cartes non-atout, il suit l'ordre de priorité des couleurs.
+
+Si le Pantin joue en premier (parcequ'il a gagné le précédent pli), il joue la première carte de sa pioche (ses 2 cartes face visibles restent sur la table).
+
+Le Pantin ne marque pas de points.

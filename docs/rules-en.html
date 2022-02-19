@@ -521,6 +521,7 @@ Will you have the necessary card, or will you need to adapt?</p>
 </ul>
 </li>
 <li><a href="#advanced-game">Advanced game</a></li>
+<li><a href="#_2_players">2 Players</a></li>
 </ul>
 </div>
 </div>
@@ -843,13 +844,13 @@ David didn&#8217;t win any trick, making his bet.</p>
 </div>
 </div>
 <div class="paragraph">
-<p><strong>The fist player to reach 35 points wins the game.</strong><br>
-If multiple players reached 35 points during the same round, <strong>the player made the most bets</strong> (won the most rounds) wins the game.<br>
+<p>The fist player to reach <strong>35 points after making their bet (winning a round)</strong> wins the game.<br>
+If multiple players reached 35 points during the same round and both made their bet, <strong>the player who made the most bets</strong> (won the most rounds) wins the game.<br>
 In case of a tie, the player who has <strong>the most points</strong> wins the game.<br>
 If the tie persists, the tied players share the victory.</p>
 </div>
 <div class="paragraph">
-<p>If no player has won 35 points, start a new round at the <a href="#distribution">Distribution</a> phase by shuffling all game cards (including the discard).</p>
+<p>If no player has won 35 points after making their bet, start a new round at the <a href="#distribution">Distribution</a> phase by shuffling all game cards (including the discard).</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -925,7 +926,7 @@ The ★ cards are weaker than lead suit cards of the same value.
 </div>
 </li>
 <li>
-<p><strong>2 Ø cards</strong> (called "Empty") :</p>
+<p><strong>2 Ø cards</strong> (called "Naught") :</p>
 <div class="ulist">
 <ul>
 <li>
@@ -983,10 +984,91 @@ If a trick only contains special cards, then the stronger card is the ‽ card, 
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2_players">2 Players</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Create the card game deck as if you were playing with three players.</p>
+</div>
+<div class="paragraph">
+<p>Both players will face each other and a third Dummy player will be simulated.</p>
+</div>
+<div class="paragraph">
+<p>Deal a hand of 7 cards to each player.
+Put the remaining cards in a pile between players: that&#8217;s the <strong>Dummy pile</strong>.</p>
+</div>
+<div class="paragraph">
+<p>During the bet phase, the Dummy always bets 2.
+Therefore, if the sum of the players bets plus 2 is 7, they need to re-bet.
+The Dummy never becomes first leader (its bet is ignored for that purpose).</p>
+</div>
+<div class="paragraph">
+<p>After the bet phase, before starting the first trick, reveal 2 cards from the Dummy pile and place them face up next to it.</p>
+</div>
+<div class="paragraph">
+<p>The Dummy always plays last (after both players), unless it won the previous trick, in which case it opens the trick, followed by the first leader.</p>
+</div>
+<div class="paragraph">
+<p>The Dummy tries to win exactly 2 tricks.</p>
+</div>
+<div class="paragraph">
+<p>Each time the Dummy plays last, reveal a third card from its pile and play one of the three revealed cards on its behalf:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>If it wants to win the trick</strong> (because it has won fewer than 2 tricks):</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>If it can win the trick</strong>:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>If it is his first trick</strong>: it plays the lowest card that wins the trick.</p>
+</li>
+<li>
+<p><strong>If it is his second trick</strong>: it plays the highest card that wins the trick.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>If it cannot win the trick</strong>: it plays the lowest possible card.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>If it wants to lose the trick</strong> (because it has already won 2 tricks):</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>If it can lose the trick</strong>: it plays the highest card that looses the trick.</p>
+</li>
+<li>
+<p><strong>If it cannot lose the trick</strong>: it plays the highest possible card.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In case of a tie for non-trump highest or lowest card, it follows the suit order.</p>
+</div>
+<div class="paragraph">
+<p>If the Dummy plays first (because it won the previous trick), it plays the first card from its pile (its 2 reveal cards stay on the table).</p>
+</div>
+<div class="paragraph">
+<p>Do not keep scores for the Dummy.</p>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-02-16 18:43:56 +0100
+Last updated 2022-02-19 17:40:48 +0100
 </div>
 </div>
 <script type="text/x-mathjax-config">

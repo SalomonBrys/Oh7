@@ -12,6 +12,5 @@
 build/
 .gradletasknamecache
 
-# Bundle
-.bundle
-Gemfile.lock
+# Adobe
+*.idlk

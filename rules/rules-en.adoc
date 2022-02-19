@@ -173,13 +173,12 @@ The basket is therefore comprised of stem:[1 + 2 = 3] points.
 ** David wins stem:[(3 * 2) + 2 + 0 = 8] points.
 ====
 
-
-*The fist player to reach 35 points wins the game.* +
-If multiple players reached 35 points during the same round, *the player made the most bets* (won the most rounds) wins the game. +
+The fist player to reach *35 points after making their bet (winning a round)* wins the game. +
+If multiple players reached 35 points during the same round and both made their bet, *the player who made the most bets* (won the most rounds) wins the game. +
 In case of a tie, the player who has *the most points* wins the game. +
 If the tie persists, the tied players share the victory.
 
-If no player has won 35 points, start a new round at the <<distribution>> phase by shuffling all game cards (including the discard).
+If no player has won 35 points after making their bet, start a new round at the <<distribution>> phase by shuffling all game cards (including the discard).
 
 [NOTE]
 ====
@@ -211,7 +210,7 @@ The suit ★ will therefore never be trump.
 The ★ cards are considered of the lead suit. +
 The ★ cards are weaker than lead suit cards of the same value.
 (For example, if ♥ is the lead suit, the order is therefore 2♥ > 2★ > 1♥).
-* *2 Ø cards* (called "Empty") :
+* *2 Ø cards* (called "Naught") :
 ** In the bet phase: +
 A Ø card corresponds to a bet of 0 trick.
 If the bet is made, the player *does not score* the 2 points for their bet (they therefore only score the double of the basket).
@@ -232,3 +231,40 @@ The ‽ card is stronger than any non-trump card, but weaker than any trump card
 If they also play a special card, then the lead suit is defined by the next player, and so on. +
 If a trick only contains special cards, then the stronger card is the ‽ card, followed by the ★ cards, followed by the Ø cards.
 ====
+
+
+== 2 Players
+
+Create the card game deck as if you were playing with three players.
+
+Both players will face each other and a third Dummy player will be simulated.
+
+Deal a hand of 7 cards to each player.
+Put the remaining cards in a pile between players: that's the *Dummy pile*.
+
+During the bet phase, the Dummy always bets 2.
+Therefore, if the sum of the players bets plus 2 is 7, they need to re-bet.
+The Dummy never becomes first leader (its bet is ignored for that purpose).
+
+After the bet phase, before starting the first trick, reveal 2 cards from the Dummy pile and place them face up next to it.
+
+The Dummy always plays last (after both players), unless it won the previous trick, in which case it opens the trick, followed by the first leader.
+
+The Dummy tries to win exactly 2 tricks.
+
+Each time the Dummy plays last, reveal a third card from its pile and play one of the three revealed cards on its behalf:
+
+* *If it wants to win the trick* (because it has won fewer than 2 tricks):
+** *If it can win the trick*:
+*** *If it is his first trick*: it plays the lowest card that wins the trick.
+*** *If it is his second trick*: it plays the highest card that wins the trick.
+** *If it cannot win the trick*: it plays the lowest possible card.
+* *If it wants to lose the trick* (because it has already won 2 tricks):
+** *If it can lose the trick*: it plays the highest card that looses the trick.
+** *If it cannot lose the trick*: it plays the highest possible card.
+
+In case of a tie for non-trump highest or lowest card, it follows the suit order.
+
+If the Dummy plays first (because it won the previous trick), it plays the first card from its pile (its 2 reveal cards stay on the table).
+
+Do not keep scores for the Dummy.
