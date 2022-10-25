@@ -5,11 +5,9 @@
 
 * https://salomonbrys.github.io/Oh7/rules-en.html[Rules: online]
 * https://salomonbrys.github.io/Oh7/rules-en.pdf[Rules: A5 sized PDF] (print as a "booklet")
-* https://salomonbrys.github.io/Oh7/Cards-A4.pdf[Cards: A4 sized PDF] (63 mm × 88 mm cards, print at scale 100%)
 
 
 == Français
 
 * https://salomonbrys.github.io/Oh7/rules-fr.html[Règles : en ligne]
 * https://salomonbrys.github.io/Oh7/rules-fr.pdf[Règles : PDF format A5] (à imprimer en "livret")
-* https://salomonbrys.github.io/Oh7/Cards-A4.pdf[Cartes : PDF format A4] (cartes format 63 mm × 88 mm, à imprimer à l'échelle 100%)

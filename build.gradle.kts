@@ -30,7 +30,6 @@ tasks.asciidoctor {
 
 tasks.asciidoctorPdf {
     dependsOn("asciidoctor")
-    dependsOn("cards")
 
     setSourceDir("rules")
     setOutputDir("docs")
@@ -57,13 +56,7 @@ tasks.create<Sync>("fonts") {
     into("docs/fonts")
 }
 
-tasks.create<Copy>("cards") {
-    from("design/Cards-A4.pdf")
-    into("docs")
-}
-
 tasks.named("build") {
-    dependsOn("cards")
     dependsOn("fonts")
     dependsOn("asciidoctor")
     dependsOn("asciidoctorPdf")
